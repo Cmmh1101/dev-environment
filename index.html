@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Dev Environment Settings</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col text-center my-5">
+          <h1 class="text-center">
+            My Web Development Environment Settings Refference
+          </h1>
+          <p>Following NuCamp FullStack Program</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mx-0">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link active"
+                id="pills-home-tab"
+                data-toggle="pill"
+                href="#pills-home"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+                >Bootstrap</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="pills-profile-tab"
+                data-toggle="pill"
+                href="#pills-profile"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+                >React</a
+              >
+            </li>
+            <li class="nav-item" role="presentation">
+              <a
+                class="nav-link"
+                id="pills-contact-tab"
+                data-toggle="pill"
+                href="#pills-contact"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+                >React Native</a
+              >
+            </li>
+          </ul>
+          <div class="tab-content" id="pills-tabContent">
+            <div
+              class="tab-pane fade show active"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <div class="row">
+                <div class="col-3">
+                  <div
+                    class="nav flex-column nav-pills"
+                    id="v-pills-tab"
+                    role="tablist"
+                    aria-orientation="vertical"
+                  >
+                    <a
+                      class="nav-link active"
+                      id="v-pills-home-tab"
+                      data-toggle="pill"
+                      href="#v-pills-home"
+                      role="tab"
+                      aria-controls="v-pills-home"
+                      aria-selected="true"
+                      >Inicialize & git</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="v-pills-profile-tab"
+                      data-toggle="pill"
+                      href="#v-pills-profile"
+                      role="tab"
+                      aria-controls="v-pills-profile"
+                      aria-selected="false"
+                      >Bootstrap, jQuery & popper</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="v-pills-messages-tab"
+                      data-toggle="pill"
+                      href="#v-pills-messages"
+                      role="tab"
+                      aria-controls="v-pills-messages"
+                      aria-selected="false"
+                      >Fontawesome, Bootstrap & SASS</a
+                    >
+                    <a
+                      class="nav-link"
+                      id="v-pills-settings-tab"
+                      data-toggle="pill"
+                      href="#v-pills-settings"
+                      role="tab"
+                      aria-controls="v-pills-settings"
+                      aria-selected="false"
+                      >Compress and Minify Images</a
+                    >
+                  </div>
+                </div>
+                <div class="col-9">
+                  <div class="tab-content" id="v-pills-tabContent">
+                    <div
+                      class="tab-pane fade show active"
+                      id="v-pills-home"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-home-tab"
+                    >
+                      <table class="table table-dark">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Step</th>
+                            <th scope="col">Comand/Code/file</th>
+                            <th scope="col">Comments</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Initialize your folder as an NPM project</td>
+                            <td>$ npm init</td>
+                            <td>
+                              Open your folder in terminal, add the command, and
+                              follow the directions/answer question in terminal
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Lite-server</td>
+                            <td>$ npm install lite-server --save-dev</td>
+                            <td>
+                              Add the command in your terminal to install
+                              lite-server
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Git ignore file</td>
+                            <td>Create a file called: .gitignore</td>
+                            <td>
+                              Create a file in your project directory named
+                              .gitignore (Note: the name starts with a period!)
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Git ignore file</td>
+                            <td>add node_modules to .gitignore</td>
+                            <td>
+                              using VS Code, add the following text to the
+                              .gitignore file: node_modules
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>Start Git</td>
+                            <td>$ git add .</td>
+                            <td>to stage files git</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">6</th>
+                            <td>Git commit</td>
+                            <td>$ git commit -m "commit message"</td>
+                            <td>To do your first commit</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">7</th>
+                            <td>Git push changes</td>
+                            <td>$ git push</td>
+                            <td>
+                              use git push to push the changes to the linked
+                              online repository.
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-profile"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-profile-tab"
+                    >
+                      <table class="table table-dark">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Step</th>
+                            <th scope="col">Comand/Code/file</th>
+                            <th scope="col">Comments</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Install jQuery & popper</td>
+                            <td>$ npm install jquery@3.5.1 popper.js@1.16.1</td>
+                            <td>in terminal add the command to install</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Install Bootstrap</td>
+                            <td>$ npm install bootstrap@4.5.2</td>
+                            <td>
+                              in terminal add the command to install bootstrap 4
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>JSON script</td>
+                            <td>
+                              "description": "This is a website for the
+                              fictional campsites review site NuCamp.",<br />"main":
+                              "index.html", <br />"scripts": {<br />"lite":
+                              "lite-server",<br />"start": "npm run lite",<br /><span
+                                class="test-success"
+                                >"test": "echo \"Error: no test specified\" &&
+                                exit 1"<br />},</span
+                              >
+                            </td>
+                            <td>
+                              Add the scripts to your JSON file it should look
+                              like this script, make sure to have "," at the end
+                              of each line except for the last one. modify the
+                              description accorfing to your project
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Start</td>
+                            <td>$ npm start</td>
+                            <td>
+                              from terminal type the command, your project
+                              should now open in your localhost for live changes
+                              preview
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>Bootstrap code (HTML)</td>
+                            <td>
+                              <img
+                                src="img/bscode.png"
+                                style="width: 500px"
+                                alt=""
+                              />
+                            </td>
+                            <td>
+                              Add the path of bootstrap & jQuery & popper to you
+                              header and scripts to your footer
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-messages"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-messages-tab"
+                    >
+                      <table class="table table-dark">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Step</th>
+                            <th scope="col">Comand/Code/file</th>
+                            <th scope="col">Comments</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Fontawesome</td>
+                            <td>$ npm install font-awesome@4.7.0</td>
+                            <td>in terminal add the command to install</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Fontawesome links (html)</td>
+                            <td>
+                              <img
+                                src="img/fontawesome_code.png"
+                                alt=""
+                                style="width: 400px"
+                                ;
+                              />
+                            </td>
+                            <td>
+                              We now need to include the CSS file for
+                              Font-Awesome in the index.html file. Add the
+                              following code to the head element of index.html,
+                              under the comment that says Additional CSS
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Bootstrap social</td>
+                            <td>$ npm install bootstrap-social@5.1.1</td>
+                            <td>
+                              optional package, if you use it make sure you add
+                              the path link to head as you added fontawesome
+                              path
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>SASS Compiler</td>
+                            <td>
+                              $ npm install --save-dev node-sass@4.14.1 <br />If
+                              your Node version is a 15.x version, enter:<br />$
+                              npm install --save-dev node-sass@5.0.0
+                            </td>
+                            <td>
+                              in terminal add the command pay attention to node
+                              version before intalling
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>SASS Compiler JSON script</td>
+                            <td>"scss": "node-sass -o css/ css/"</td>
+                            <td>
+                              add the script to JSON as you have done
+                              previously, the order does not affect but make
+                              sure to add a "," after each except the last one
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>Package onchange as a dev-dependency</td>
+                            <td>$ npm install --save-dev onchange@7.0.0</td>
+                            <td>On terminal add the command</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">6</th>
+                            <td>package parallelshell</td>
+                            <td>
+                              $ npm install --save-dev -E parallelshell@3.0.1
+                            </td>
+                            <td>On terminal add the command</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">7</th>
+                            <td>Onchange & parallelshell JSON scripts</td>
+                            <td>
+                              "watch:scss": "onchange 'css/*.scss' -- npm run
+                              scss", <br />"watch:all": "parallelshell 'npm run
+                              watch:scss' 'npm run lite'"
+                            </td>
+                            <td>Add json script</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">8</th>
+                            <td>** Update JSON START script</td>
+                            <td>"start": "npm run watch:all",</td>
+                            <td>Add json script</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">9</th>
+                            <td>Start</td>
+                            <td>$ npm start</td>
+                            <td>
+                              type the prompt to start watching for changes to
+                              the Sass file, compile it to CSS, and run the
+                              server
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div
+                      class="tab-pane fade"
+                      id="v-pills-settings"
+                      role="tabpanel"
+                      aria-labelledby="v-pills-settings-tab"
+                    >
+                      <table class="table table-dark">
+                        <thead>
+                          <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Step</th>
+                            <th scope="col">Comand/Code/file</th>
+                            <th scope="col">Comments</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">1</th>
+                            <td>Compress images</td>
+                            <td>
+                              $ npm install --save-dev imagemin-cli@5.1.0
+                              <br />NOTE: Some MacOS students have encountered
+                              issues with imagemin-cli not installing its
+                              plugins due to issues with global permissions on
+                              MacOS. If this happens, try:<br />sudo npm install
+                              imagemin-cli@5.1.0 --save-dev --unsafe-perm=true
+                              --allow-root
+                            </td>
+                            <td>in terminal add the command to install</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">2</th>
+                            <td>Compress images JSON script</td>
+                            <td>"imagemin": "imagemin img/* -o dist/img",</td>
+                            <td>add JSON script</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">3</th>
+                            <td>Concatenate minify & uglify: Install Usemin</td>
+                            <td>$ npm install --save-dev usemin-cli@0.6.0</td>
+                            <td>add command to your terminal</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">4</th>
+                            <td>Usemin JSON scripts</td>
+                            <td>
+                              "usemin": "usemin contactus.html -d dist --htmlmin
+                              -o dist/contactus.html && usemin aboutus.html -d
+                              dist --htmlmin -o dist/aboutus.html && usemin
+                              index.html -d dist --htmlmin -o dist/index.html",
+                            </td>
+                            <td>
+                              add script to JSON ** You may need to change files
+                              to accomodate with your current project files
+                              following the pattern
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">5</th>
+                            <td>Add build comments HTML</td>
+                            <td>
+                              comment before bootstrap link:<br />
+                              build:css css/main.css<br />Comment after
+                              style.css: <br />endbuild
+                            </td>
+                            <td>
+                              add those two comments exactly where indicated.
+                              Make sure you add the comments expression do the
+                              same for the script tags at the bottom. Every html
+                              file should have those comments
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">6</th>
+                            <td>Automate Dist Folder Cleanup</td>
+                            <td>$ npm install --save-dev rimraf@3.0.2</td>
+                            <td>in terminal add the command</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">7</th>
+                            <td>Dist folder JSON script</td>
+                            <td>"clean": "rimraf dist",</td>
+                            <td>
+                              add the script to JSON as you have done
+                              previously, the order does not affect but make
+                              sure to add a "," after each except the last one
+                            </td>
+                          </tr>
+                          <tr>
+                            <th scope="row">8</th>
+                            <td>distribution folder script in JSON</td>
+                            <td>
+                              "build": "npm run clean && npm run imagemin && npm
+                              run copyfonts && npm run usemin",
+                            </td>
+                            <td>Add the script to JSON</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">9</th>
+                            <td>Build the distribution folder</td>
+                            <td>$ npm run build</td>
+                            <td>
+                              On terminal add the command. ** MAKE SURE that you
+                              RUN this command before doing commit so the
+                              changes are added to the DISTRIBUTION folder
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+            >
+              Coming soon...
+            </div>
+            <div
+              class="tab-pane fade"
+              id="pills-contact"
+              role="tabpanel"
+              aria-labelledby="pills-contact-tab"
+            >
+              Coming soon...
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
